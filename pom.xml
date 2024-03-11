@@ -3,19 +3,19 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.hfld</groupId>
-    <artifactId>yuoj-backend-microservice</artifactId>
+    <artifactId>oj-backend-microservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>yuoj-backend-microservice</name>
     <description>鱼OJ项目</description>
     <modules>
-        <module>yuoj-backend-common</module>
-        <module>yuoj-backend-model</module>
-        <module>yuoj-backend-gateway</module>
-        <module>yuoj-backend-service-client</module>
-        <module>yuoj-backend-question-service</module>
-        <module>yuoj-backend-user-service</module>
-        <module>yuoj-backend-judge-service</module>
+        <module>oj-backend-common</module>
+        <module>oj-backend-model</module>
+        <module>oj-backend-gateway</module>
+        <module>oj-backend-service-client</module>
+        <module>oj-backend-question-service</module>
+        <module>oj-backend-user-service</module>
+        <module>oj-backend-judge-service</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
